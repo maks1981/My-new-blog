@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My new Blog</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="mynewblog.css">
+	<link href="https://fonts.googleapis.com/css?family=Chela+One&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+<p class="blog">July 08th 2018</p>
+<h3 class="see">This is my first blog!</h3>
+
+<p class="hello">
+	Bacon ipsum dolor amet cupim bacon jowl picanha. Flank meatloaf kielbasa pig. Landjaeger fatback biltong buffalo tail jerky strip steak, short ribs frankfurter. Beef ribs ball tip fatback pork loin boudin doner tri-tip kevin alcatra shank chuck flank pork chop corned beef pork.
+</p>
+<p>
+	Bresaola pork meatball sirloin chuck leberkas. Turkey bresaola jowl tenderloin. Bresaola fatback kielbasa corned beef short loin capicola pork belly. Ham hock alcatra shank, bacon ribeye fatback rump biltong picanha pork belly ham.
+</p>
+<p>
+	Pastrami bacon burgdoggen turducken, cow ham hock tail. Swine biltong venison, bresaola picanha spare ribs frankfurter capicola sausage corned beef porchetta turkey andouille. Sausage biltong pork ham hock meatball. Sausage hamburger kielbasa chuck, pork belly turkey short loin pork chop leberkas venison burgdoggen spare ribs jerky short ribs drumstick.
+</p>
+<hr>
+<p class="blog">July 09th 2018</p>
+
+<h3 class="see">This is another one!</h3>
+<p class="hello">
+	Bacon ipsum dolor amet cupim bacon jowl picanha. Flank meatloaf kielbasa pig. Landjaeger fatback biltong buffalo tail jerky strip steak, short ribs frankfurter. Beef ribs ball tip fatback pork loin boudin doner tri-tip kevin alcatra shank chuck flank pork chop corned beef pork.
+</p>
+
+<p>
+	Bresaola pork meatball sirloin chuck leberkas. Turkey bresaola jowl tenderloin. Bresaola fatback kielbasa corned beef short loin capicola pork belly. Ham hock alcatra shank, bacon ribeye fatback rump biltong picanha pork belly ham.
+</p>
+<p>
+	Pastrami bacon burgdoggen turducken, cow ham hock tail. Swine biltong venison, bresaola picanha spare ribs frankfurter capicola sausage corned beef porchetta turkey andouille. Sausage biltong pork ham hock meatball. Sausage hamburger kielbasa chuck, pork belly turkey short loin pork chop leberkas venison burgdoggen spare ribs jerky short ribs drumstick.
+</p>
+</body>
+</html>
+
+<!-- below css for above html files-->
+body {
+	border: 20px solid #88CED3;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: Chela One;
+}
+.hello {
+	border-left: 5px solid #88CED3;
+	padding: 5px;
+}
+.see {
+	letter-spacing: 3px;
+	color: green;
+}
+.blog {
+	color: red;
+	text-transform: uppercase;
+}
+hr {
+	height: 5px;
+	border: none;
+	color: #88CED3;
+	overflow: visible;
+	border-top: 3px double #88CED3;
+	text-align: center;
+}
+hr:after {
+	background: #fff;
+	content: '§';
+	color: red;
+	padding: 0 4px;
+	position: relative;
+	top: -13px;
+}
+
